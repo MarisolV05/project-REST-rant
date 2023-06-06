@@ -8,7 +8,7 @@ function Def (html) {
                 <link rel="stylesheet" href="/css/style.css"/>
             </head>
             <body>
-                {html.childre}
+                {html.children}
             </body>
         </html>
     )
