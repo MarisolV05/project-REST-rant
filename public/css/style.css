@@ -6,3 +6,9 @@ h1 {
     height: 60vh;
     width: 80vw;
 }
+
+main {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
