@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
  //post
  router.post('/', (req, res) => {
    if (!req.body.pic) {
-     req.body.pic = 'http://placekitten.com/400/400'
+     req.body.pic = 'http://placekitten.com/600/600'
    }
    if (!req.body.city){
      req.body.city = "Anytown"
@@ -35,7 +35,7 @@ router.get('/', (req, res) => {
        res.render('error404')
    }
    else {
-     res.render('places/edit', {place: places[id]})
+     res.render('places/edit', {place: places[id], id})
    }
  })
 
@@ -50,7 +50,7 @@ router.get('/', (req, res) => {
    }
    else {
      if (!req.body.pic) {
-       req.body.pic = 'http://placekitten.com/400/400'
+       req.body.pic = 'http://placekitten.com/600/600'
      }     if (!req.body.city){
        req.body.city = 'Anytown'
      }
