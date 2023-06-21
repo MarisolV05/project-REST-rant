@@ -20,8 +20,10 @@ router.get('/', (req, res) => {
       res.redirect('/places')
   })
   .catch(err => {
-      console.log('err', err)
-      res.render('error404')
+    console.log('err', err)
+    res.render('error404')
+        
+
   })
 })
  //new
@@ -66,6 +68,7 @@ router.post('/:id/rant', (req, res) => {
 router.get('/:id', (req, res) => {
   db.Place.findById(req.params.id)
   .then(place => {
+    
       res.render('places/show', { place })
   })
   .catch(err => {
