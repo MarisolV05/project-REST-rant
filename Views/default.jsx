@@ -1,4 +1,6 @@
 const React = require('react')
+const currentYear = new Date().getFullYear()
+const footerText = 'Site Created by Marisol V'
 
 function Def (html) {
     return (
@@ -27,6 +29,7 @@ function Def (html) {
                 {html.children}
 
             </body>
+            <footer>{footerText}</footer>
         </html>
     )
 }

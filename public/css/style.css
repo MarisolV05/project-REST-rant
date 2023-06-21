@@ -3,8 +3,7 @@ h1 {
     color: cornflowerblue;
   }
   img {
-    height: 100px;
-    width: 90px;
+   width: auto;
 }
 body { 
  
