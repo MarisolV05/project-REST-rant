@@ -7,14 +7,10 @@ function home () {
             <main>
                 <h1>HOME</h1>
                 <div>
-                    <img src="/images/chia-fruit-drink.jpg" alt="Chia Fruit Shake" width= "600" height="600"/>
+                    <img src="/images/restaurant1.jpg" alt="restaurant" width="1000" length="1000"/>
                 
 </div>
-<div>
-Photo by <a href="AUTHOR_LINK">Brenda Godinez</a> on{" "}
-              <a href="UNSPLASH_LINK">Unsplash</a>
-  
-</div>
+
   
                 <a href="/places">
   <button className="btn-primary">Places Page</button>

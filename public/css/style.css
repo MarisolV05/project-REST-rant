@@ -2,9 +2,9 @@ h1 {
     text-align: center;
     color: cornflowerblue;
   }
-  img {
-   width: auto;
-}
+ img {
+  width: 300px;
+ }
 body { 
  
   background-color: lightblue;
