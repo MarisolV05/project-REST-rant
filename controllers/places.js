@@ -113,35 +113,3 @@ router.delete('/:id/comment/:commentId', (req, res) => {
 })
 module.exports = router
 
-
-//   if (!req.body.pic) {
-//     req.body.pic = 'http://placekitten.com/600/600'
-//   }
-//   if (!req.body.city){
-//     req.body.city = "Anytown"
-//   }
-//   if (!req.body.state) {
-//     req.body.state = "USA"
-//   }
-//   places.push(req.body)
-//   res.redirect('/places')
-// })
-
-
-
-
-
-  
-//   let id = Number(req.params.id)
-//   if (isNaN(id)) {
-//     res.render('error404')
-//   }
-//   else if (!places[id]) {
-//    res.render('error404')
-//   }
-//   else {
-//     res.render('places/show', { place: places[id], id })
-//   }
-// })
-
-
