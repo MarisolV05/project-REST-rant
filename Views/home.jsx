@@ -7,7 +7,7 @@ function home () {
             <main>
                 <h1>HOME</h1>
                 <div>
-                    <img src="/images/restaurant1.jpg" alt="restaurant" width="1000" length="1000"/>
+                    <img src="/images/restaurant1.jpg" alt="restaurant" width="600" length="600"/>
                 
 </div>
 

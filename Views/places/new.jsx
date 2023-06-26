@@ -2,7 +2,7 @@ const React = require('react')
 const Def = require('../default')
 
 function new_form (data) {
-  let message = ''
+  let message = '';
   if(data.message) {
     message = (
       <h4 className='alert-danger'>
@@ -44,6 +44,6 @@ function new_form (data) {
             </form>
         </main>
     </Def>
-)
+);
 }
 module.exports = new_form
