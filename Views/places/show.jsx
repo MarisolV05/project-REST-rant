@@ -149,10 +149,11 @@ function show(data) {
                     type="submit"
                     value="Add Comment"
                   />
-                </div>
+               </div>
                </div>
               </form>
-            </div>
+              </div>
+            
           </div>
         </div>
       </main>
@@ -162,11 +163,6 @@ function show(data) {
 
 module.exports = show; 
 
-//const React = require('react')
-//const Def = require('../default')
-//const comments = require("../../models/comment");
-
-//function show (data) {
 //    let comments = <h3 className="inactive">No comments yet!</h3>;
 //    let rating = <h3 className="inactive">Not yet rated</h3>
    
